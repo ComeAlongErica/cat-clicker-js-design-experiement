@@ -1,0 +1,16 @@
+.cat-img {
+    background-image: url("../images/cat-photo.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.counter {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(65, 63, 63, .5);
+    width: 30vw;
+    height: 30vh;
+    color: white;
+    z-index: 100;
+}
