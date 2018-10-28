@@ -26,13 +26,14 @@ $(document).ready(() => {
     const pageSetup = () => {
         for (let i = 0; i < catArray.length; i++) {
             let cat = catArray[i]; // specific cat we are on
-            let counter = 0;
 
             let list = document.createElement('p'); //creates element
             list.textContent = cat.name; // give element content
 
             //creates event listener for element
             list.addEventListener("click", (function (catCopy) {
+                let counter = 0;
+
                 return function () {
                     //increases counter
                     counter = counter + 1;
