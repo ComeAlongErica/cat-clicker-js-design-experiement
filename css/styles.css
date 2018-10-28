@@ -1,11 +1,13 @@
-.cat-img {
-    background-image: url("../images/cat-photo.jpg");
-    background-repeat: no-repeat;
-    height: 100vh;
+.cat-group {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.counter {
-    position: fixed;
+.counter-cat-1, .counter-cat-2 {
+    position: absolute;
     top: 20px;
     left: 20px;
     background-color: rgba(65, 63, 63, .5);
@@ -13,4 +15,12 @@
     height: 30vh;
     color: white;
     z-index: 100;
+}
+
+.cat-name {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 3em;
 }
